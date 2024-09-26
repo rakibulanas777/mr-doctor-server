@@ -1,0 +1,7 @@
+torch
+torchvision
+numpy
+networkx
+nltk
+Flask
+flask-cors

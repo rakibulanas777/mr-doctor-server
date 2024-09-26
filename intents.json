@@ -1,0 +1,294 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Is anyone available?",
+        "Good morning",
+        "Good afternoon",
+        "Greetings",
+        "How's it going?",
+        "What's up?",
+        "Anyone here?",
+        "Hello, can you help me?",
+        "Hi, I need assistance",
+        "Hey, what's going on?",
+        "Hello, is this MRDoctor?",
+        "Hi there, who am I speaking to?"
+      ],
+      "responses": [
+        "Hello! Welcome to MRDoctor. How can I assist you today?",
+        "Hi! Thanks for visiting MRDoctor. How can I help?",
+        "Hey there! How can I support you today?",
+        "Greetings from MRDoctor! How can we assist you?"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "I appreciate your help",
+        "Thanks for the advice",
+        "Thanks for the information",
+        "Thank you so much",
+        "I really appreciate it",
+        "Thanks for helping me",
+        "Thanks, you've been very helpful",
+        "I appreciate your assistance"
+      ],
+      "responses": [
+        "You're welcome! I'm happy to help.",
+        "No problem at all! Let me know if you need more assistance.",
+        "Glad I could help! Feel free to reach out if you need anything else.",
+        "You're very welcome! Take care and have a great day."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Talk to you soon",
+        "Bye",
+        "Thanks, goodbye",
+        "Catch you later",
+        "I have to go, goodbye",
+        "Thanks, I’m done",
+        "Take care",
+        "Goodbye for now"
+      ],
+      "responses": [
+        "Goodbye! Thanks for visiting MRDoctor.",
+        "Take care! If you need any more help, feel free to come back.",
+        "See you soon! Wishing you the best of health.",
+        "Thanks for stopping by, take care and stay healthy!"
+      ]
+    },
+    {
+      "tag": "symptom_check",
+      "patterns": [
+        "I have a headache, what should I do?",
+        "My stomach hurts after eating, any advice?",
+        "I'm feeling dizzy, what could be wrong?",
+        "What should I do if I have a fever?",
+        "I'm feeling unwell, should I see a doctor?",
+        "How do I treat nausea?",
+        "What are the symptoms of the flu?",
+        "Can dehydration cause dizziness?",
+        "How long should I rest if I have a cold?",
+        "What signs suggest a serious illness?",
+        "What does it mean if I have a sore throat?",
+        "Should I be worried about muscle pain?",
+        "Why do I feel tired all the time?",
+        "Is coughing a sign of something serious?",
+        "Can stress cause physical symptoms?",
+        "What should I do for a runny nose?",
+        "Why do I have trouble breathing?",
+        "Should I see a doctor for chest pain?",
+        "What does dizziness usually mean?",
+        "Is it normal to have a slight fever?",
+        "Can anxiety cause heart palpitations?",
+        "Why do I keep feeling lightheaded?",
+        "What should I do if I have a persistent cough?",
+        "When should I be worried about back pain?",
+        "How can I tell if I have an infection?"
+      ],
+      "responses": [
+        "Please consult a doctor if symptoms persist.",
+        "Rest and stay hydrated. If symptoms worsen, see a doctor.",
+        "You may try over-the-counter pain relievers, but consult a healthcare professional if needed.",
+        "Dehydration might cause headaches and dizziness. Make sure to drink enough water."
+      ]
+    },
+    {
+      "tag": "appointment_booking",
+      "patterns": [
+        "How do I book a doctor's appointment?",
+        "Can I schedule a visit to see a specialist?",
+        "How can I book an appointment online?",
+        "What do I need to schedule a doctor's visit?",
+        "Can I change my appointment time?",
+        "I need to cancel my appointment, how do I do it?",
+        "How long is the waiting time for appointments?",
+        "Do I need a referral to see a specialist?",
+        "What time slots are available for appointments?",
+        "Can I book a follow-up appointment?",
+        "Is it possible to get a same-day appointment?",
+        "How do I check the availability of doctors?",
+        "Can I see a doctor without booking an appointment?",
+        "How do I reschedule my appointment?",
+        "Do I have to pay in advance for my appointment?",
+        "Can I choose the doctor I want to see?",
+        "Is there a fee for booking an appointment?",
+        "How soon can I get an appointment?",
+        "What documents do I need to bring for my appointment?",
+        "Can I book an appointment via phone?",
+        "Do you offer online consultations?",
+        "Can I book a video consultation?",
+        "How do I find a doctor in my area?"
+      ],
+      "responses": [
+        "You can book an appointment online via MRDoctor or by calling our helpline.",
+        "To reschedule or cancel, log into your account or call us.",
+        "Visit our website or app to book or modify appointments easily.",
+        "Make sure to confirm available time slots before booking."
+      ]
+    },
+    {
+      "tag": "medication_inquiry",
+      "patterns": [
+        "Is it safe to take ibuprofen and paracetamol together?",
+        "What are the side effects of this medicine?",
+        "Can I give this medicine to my child?",
+        "Is it okay to take this medication on an empty stomach?",
+        "How should I store my medications?",
+        "What should I do if I miss a dose?",
+        "Can I drink alcohol while on this medication?",
+        "What is the best way to take painkillers?",
+        "Can I take this with food?",
+        "Can I take over-the-counter medication with my prescription?",
+        "What should I do if I take too much medication?",
+        "Is it safe to mix this medication with others?",
+        "How long should I take this medicine?",
+        "Can I use expired medications?",
+        "What are the interactions between this medicine and other drugs?",
+        "Can this medication cause drowsiness?",
+        "Should I take this medication at a specific time of day?",
+        "Can I stop taking this medication if I feel better?",
+        "What should I do if I have an allergic reaction to a medication?",
+        "Is there a generic version of this medicine?",
+        "How long before this medicine takes effect?",
+        "What should I avoid while taking this medication?",
+        "Can I crush or split this medication?",
+        "Can this medicine cause nausea?"
+      ],
+      "responses": [
+        "Please consult a pharmacist or doctor for advice on combining medications.",
+        "Check the label or consult your healthcare provider for specific instructions.",
+        "It's important to follow dosage instructions on the label or from your doctor.",
+        "If you're unsure, speak with your healthcare provider to avoid interactions."
+      ]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": [
+        "How can I improve my overall health?",
+        "What should I eat for a balanced diet?",
+        "How can I stay fit and healthy?",
+        "What are the best ways to boost my immune system?",
+        "What daily habits improve mental health?",
+        "How much exercise should I do per week?",
+        "How can I avoid common illnesses like the flu?",
+        "What are some tips for staying hydrated?",
+        "How important is sleep for health?",
+        "What should I do to reduce stress?",
+        "What foods are best for weight loss?",
+        "How do I stay active throughout the day?",
+        "What should I avoid to stay healthy?",
+        "How do I develop healthy habits?",
+        "Can I improve my health with supplements?",
+        "How much water should I drink daily?",
+        "What are some easy exercises to do at home?",
+        "How do I improve my mental focus?",
+        "What foods should I eat to increase my energy?",
+        "How can I improve my posture?",
+        "What are the best vitamins for immune health?",
+        "How do I maintain a healthy weight?",
+        "What are the benefits of regular exercise?",
+        "How can I reduce my sugar intake?"
+      ],
+      "responses": [
+        "A balanced diet, regular exercise, and plenty of water can greatly improve your health.",
+        "Try to get at least 7-8 hours of sleep per night and manage your stress levels.",
+        "Daily physical activity and mindful eating are keys to staying fit and healthy.",
+        "Stay active and include a variety of fruits and vegetables in your meals."
+      ]
+    },
+    {
+      "tag": "emergency_contact",
+      "patterns": [
+        "What should I do in an emergency situation?",
+        "Who do I call in a medical emergency?",
+        "How can I reach emergency services?",
+        "What is the emergency number in my area?",
+        "What should I do if someone is unconscious?",
+        "How do I perform CPR?",
+        "What should I do if I see someone having a seizure?",
+        "What is the quickest way to get medical help?",
+        "How do I report a serious accident?",
+        "Who should I contact in a health crisis?",
+        "What steps should I take if someone is bleeding?",
+        "How do I help someone who is choking?",
+        "What should I do if someone faints?",
+        "Can I call for an ambulance using my phone?",
+        "How do I report a fire or other emergency?",
+        "What should I do if I see someone collapse in public?",
+        "How do I help someone having a heart attack?",
+        "Can I text emergency services?",
+        "What should I do during a natural disaster?",
+        "How do I perform the Heimlich maneuver?"
+      ],
+      "responses": [
+        "In case of a medical emergency, dial 911 or your local emergency number immediately.",
+        "For any urgent situation, contact emergency services and follow their instructions.",
+        "Stay calm and provide as much information as possible when calling for help.",
+        "If someone is in need of urgent care, call 911 and follow the dispatcher’s guidance."
+      ]
+    },
+    {
+      "tag": "creator_info",
+      "patterns": [
+        "Who created you?",
+        "Who is your creator?",
+        "Who made this chatbot?",
+        "Who developed you?",
+        "Tell me who created you.",
+        "Who built you?",
+        "Who is responsible for creating this chatbot?",
+        "Who designed this chatbot?",
+        "Who is behind this chatbot?",
+        "Can you tell me who programmed you?"
+      ],
+      "responses": [
+        "I was created by Anas.",
+        "Anas is the person who developed me.",
+        "I was built by Anas to assist with healthcare inquiries.",
+        "Anas is the mind behind my creation."
+      ]
+    },
+    {
+      "tag": "disease_prediction",
+      "patterns": [
+        "Can you predict if I have a disease?",
+        "How do I know if I have a serious illness?",
+        "Can you help me with disease detection?",
+        "What are the signs of diabetes?",
+        "Do I have cancer based on my symptoms?",
+        "Can you predict heart disease?",
+        "What diseases are common for my age?",
+        "How do I know if I have high blood pressure?",
+        "Can you diagnose diseases?",
+        "What are the chances I have an infection?",
+        "How can I tell if I have a chronic disease?",
+        "How can I find out if I have COVID-19?",
+        "Can you check if I have lung disease?",
+        "What are the signs of kidney disease?",
+        "How do I know if I am at risk for a disease?",
+        "Can you detect early signs of a disease?",
+        "How do I screen for common illnesses?",
+        "What tests do I need to diagnose a disease?",
+        "Can I get a prediction for heart attack risk?",
+        "What are the symptoms of a stroke?"
+      ],
+      "responses": [
+        "While I can provide general information, please consult a healthcare provider for an accurate diagnosis.",
+        "It is important to visit a doctor for proper testing and diagnosis if you're concerned about a disease.",
+        "To predict diseases accurately, a doctor will need to assess your symptoms and medical history."
+      ]
+    }
+  ]
+}
